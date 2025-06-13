@@ -1,0 +1,192 @@
+body {
+    font-family: "Inter", serif;
+    background-color: rgb(9, 9, 9);
+    overflow-x: hidden;
+    /* background-image: url(./images/bgimage.png);
+    background-repeat: repeat;
+    background-size: contain;
+     */
+  }
+  .eachsection{
+    background-image: url(./images/bgimage.jpeg); 
+    background-repeat: repeat;  
+    background-size: contain;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .brandname {
+    font-size: 30px;
+    font-family: "Calistoga", serif;
+    font-weight: 500px;
+}
+.introvid {
+    filter: brightness(54%);
+    height: 945px;
+    
+
+}
+.introtext {
+    width: 100%; 
+    height: 100%; 
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.introbox{
+    background-color: black;
+}
+.introh1 {
+    font-family: "Inter", serif;
+}
+.nav-link:hover{
+    color: gold !important; 
+    text-decoration: underline gold;
+    text-shadow: 0px 0px 20px gold;
+
+}
+
+/* about us */
+
+#aboutustextdiv {
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* services part started */
+.heading1forblackbg {
+    font-size: 180px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 217, 0, 0.636);
+}
+.heading2forblackbg {
+    font-size: 80px;
+    top: 102px;
+    left: 5%;
+    color: aliceblue;
+}
+.servicecard{
+    width: 90%; 
+    margin-left: 25%; 
+    margin-top: 50px; 
+    height: fit-content;
+}
+
+/* TRAINERS STARTED */
+.alltrainers {
+    width: 96%;
+    box-sizing: border-box;
+}
+.trainer {
+    width: 370px;
+    height: fit-content;
+    color: aliceblue;
+}
+#trainer1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 13px gold;
+   
+}
+#trainer2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 13px gold;
+}
+#trainer3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 13px gold;
+}
+
+
+/* our plans */
+.plancard {
+    width: 26%; 
+    box-shadow: 0px 0px 10px white;
+    transition: all 180ms ease-in-out;
+    background-color: black;
+}
+.plancard:hover {
+    box-shadow: 0px 0px 29px goldenrod;
+    transform: scale(1.2);
+}
+#plan1:hover{
+    transform: scale(1.1);
+   
+}
+#plan2:hover{
+    transform: scale(1.1);
+}
+#plan3:hover{
+    transform: scale(1.1);
+}
+
+/* Contact us */
+.istpart {
+    transition: all 150ms ease-in-out;
+
+
+}
+.istpart h2{
+    left: 15%; top:15%;
+}
+.istpart p{
+    left: 15%; 
+    top: 60%;
+}
+.istpart:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px goldenrod;
+    z-index: 1;
+}
+.list {
+    list-style: none;
+}
+@media  (max-width:900px) {
+    .introvid{
+        height: 700px;
+        filter: brightness(70%);
+
+
+    }
+    .intro{
+        height: max-content;
+    }
+    .introtext{
+        margin-top: 220px;
+    }
+    .introtext h1 {
+        font-size: 23px;
+     
+
+    }
+    .introtext p {
+        font-size: 14px;
+        margin-top:5px;
+
+    }
+    .introbox{
+        height: min-content;
+        background-color: black;
+    }
+    #service2nd{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #service1st{
+        margin-top: 100px;
+    }
+    .heading1forblackbg{
+    font-size: 140px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 217, 0, 0.636);
+    }
+    .heading2forblackbg {
+        font-size: 70px;
+        top: 102px;
+        left: 5%;
+        color: aliceblue;
+    }
+    
+}
